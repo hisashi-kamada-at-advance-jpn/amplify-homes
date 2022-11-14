@@ -4,9 +4,9 @@ import { NewHomes, NavBar, MarketingFooter } from './ui-components'
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <NavBar width={"100vw"}/>
       <NewHomes />
-      <MarketingFooter />
+      <MarketingFooter width={"100vw"}/>
     </div>
   );
 }
